@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CC7C251E705A6F00C131FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC7C241E705A6F00C131FF /* AppDelegate.swift */; };
+		08CC7C2A1E705A6F00C131FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CC7C281E705A6F00C131FF /* Main.storyboard */; };
+		08CC7C2C1E705A6F00C131FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CC7C2B1E705A6F00C131FF /* Assets.xcassets */; };
+		08CC7C2F1E705A6F00C131FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CC7C2D1E705A6F00C131FF /* LaunchScreen.storyboard */; };
+		08CC7C3A1E705A6F00C131FF /* ABayronTopTenChicagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC7C391E705A6F00C131FF /* ABayronTopTenChicagoTests.swift */; };
+		08CC7C451E705A6F00C131FF /* ABayronTopTenChicagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC7C441E705A6F00C131FF /* ABayronTopTenChicagoUITests.swift */; };
+		08CC7C531E705B4000C131FF /* chicagoTopTen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08CC7C521E705B4000C131FF /* chicagoTopTen.plist */; };
+		BB7091661E739D3300AAE074 /* Profile in Resources */ = {isa = PBXBuildFile; fileRef = BB7091651E739D3300AAE074 /* Profile */; };
+		BB7091681E739E5900AAE074 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7091671E739E5900AAE074 /* MapKit.framework */; };
+		BB70916A1E739EA700AAE074 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7091691E739EA700AAE074 /* MapViewController.swift */; };
+		BB7E51F21E724A750068003C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E51F11E724A750068003C /* TableViewController.swift */; };
+		BB7E51F41E724B3D0068003C /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E51F31E724B3D0068003C /* Attraction.swift */; };
+		BB7E51F61E724CF90068003C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E51F51E724CF90068003C /* DetailViewController.swift */; };
+		BB7E51F81E724D160068003C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E51F71E724D160068003C /* TableViewCell.swift */; };
+		BBB417361E802C3D0017AD6E /* artic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB4172C1E802C3D0017AD6E /* artic.jpg */; };
+		BBB417371E802C3D0017AD6E /* chicago theatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB4172D1E802C3D0017AD6E /* chicago theatre.jpg */; };
+		BBB417381E802C3D0017AD6E /* chinatown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB4172E1E802C3D0017AD6E /* chinatown.jpg */; };
+		BBB417391E802C3D0017AD6E /* maggie daley park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB4172F1E802C3D0017AD6E /* maggie daley park.jpg */; };
+		BBB4173A1E802C3D0017AD6E /* millennium park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417301E802C3D0017AD6E /* millennium park.jpg */; };
+		BBB4173B1E802C3D0017AD6E /* navy pier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417311E802C3D0017AD6E /* navy pier.jpg */; };
+		BBB4173C1E802C3D0017AD6E /* shedd aquarium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417321E802C3D0017AD6E /* shedd aquarium.jpg */; };
+		BBB4173D1E802C3D0017AD6E /* water tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417331E802C3D0017AD6E /* water tower.jpg */; };
+		BBB4173E1E802C3D0017AD6E /* willis tower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417341E802C3D0017AD6E /* willis tower.jpeg */; };
+		BBB4173F1E802C3D0017AD6E /* wrigley field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417351E802C3D0017AD6E /* wrigley field.jpg */; };
+		BBB4174A1E802C4C0017AD6E /* artic ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417401E802C4C0017AD6E /* artic ic.jpg */; };
+		BBB4174B1E802C4C0017AD6E /* chicago theatre ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417411E802C4C0017AD6E /* chicago theatre ic.jpg */; };
+		BBB4174C1E802C4C0017AD6E /* chinatown ic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417421E802C4C0017AD6E /* chinatown ic.jpeg */; };
+		BBB4174D1E802C4C0017AD6E /* maggie daley park ic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BBB417431E802C4C0017AD6E /* maggie daley park ic.JPG */; };
+		BBB4174E1E802C4C0017AD6E /* millennium park ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417441E802C4C0017AD6E /* millennium park ic.jpg */; };
+		BBB4174F1E802C4C0017AD6E /* navy pier ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417451E802C4C0017AD6E /* navy pier ic.jpg */; };
+		BBB417501E802C4C0017AD6E /* shedd aquarium ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417461E802C4C0017AD6E /* shedd aquarium ic.jpg */; };
+		BBB417511E802C4C0017AD6E /* water tower ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417471E802C4C0017AD6E /* water tower ic.jpg */; };
+		BBB417521E802C4C0017AD6E /* willis tower ic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417481E802C4C0017AD6E /* willis tower ic.jpeg */; };
+		BBB417531E802C4C0017AD6E /* wrigley field ic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB417491E802C4C0017AD6E /* wrigley field ic.jpg */; };
+		BBE39FD31E731D68004CC0A4 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE39FD21E731D68004CC0A4 /* WebsiteViewController.swift */; };
+		BBE39FD51E737451004CC0A4 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE39FD41E737451004CC0A4 /* AuthorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08CC7C361E705A6F00C131FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08CC7C191E705A6F00C131FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CC7C201E705A6F00C131FF;
+			remoteInfo = ABayronTopTenChicago;
+		};
+		08CC7C411E705A6F00C131FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08CC7C191E705A6F00C131FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CC7C201E705A6F00C131FF;
+			remoteInfo = ABayronTopTenChicago;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CC7C211E705A6F00C131FF /* ABayronTopTenChicago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABayronTopTenChicago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CC7C241E705A6F00C131FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08CC7C291E705A6F00C131FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08CC7C2B1E705A6F00C131FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08CC7C2E1E705A6F00C131FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08CC7C301E705A6F00C131FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CC7C351E705A6F00C131FF /* ABayronTopTenChicagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABayronTopTenChicagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CC7C391E705A6F00C131FF /* ABayronTopTenChicagoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABayronTopTenChicagoTests.swift; sourceTree = "<group>"; };
+		08CC7C3B1E705A6F00C131FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CC7C401E705A6F00C131FF /* ABayronTopTenChicagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABayronTopTenChicagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CC7C441E705A6F00C131FF /* ABayronTopTenChicagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABayronTopTenChicagoUITests.swift; sourceTree = "<group>"; };
+		08CC7C461E705A6F00C131FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CC7C521E705B4000C131FF /* chicagoTopTen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chicagoTopTen.plist; sourceTree = "<group>"; };
+		BB7091651E739D3300AAE074 /* Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Profile; sourceTree = SOURCE_ROOT; };
+		BB7091671E739E5900AAE074 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB7091691E739EA700AAE074 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BB7E51F11E724A750068003C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BB7E51F31E724B3D0068003C /* Attraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		BB7E51F51E724CF90068003C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BB7E51F71E724D160068003C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BBB4172C1E802C3D0017AD6E /* artic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = artic.jpg; path = "Attraction Image/artic.jpg"; sourceTree = "<group>"; };
+		BBB4172D1E802C3D0017AD6E /* chicago theatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chicago theatre.jpg"; path = "Attraction Image/chicago theatre.jpg"; sourceTree = "<group>"; };
+		BBB4172E1E802C3D0017AD6E /* chinatown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chinatown.jpg; path = "Attraction Image/chinatown.jpg"; sourceTree = "<group>"; };
+		BBB4172F1E802C3D0017AD6E /* maggie daley park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "maggie daley park.jpg"; path = "Attraction Image/maggie daley park.jpg"; sourceTree = "<group>"; };
+		BBB417301E802C3D0017AD6E /* millennium park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "millennium park.jpg"; path = "Attraction Image/millennium park.jpg"; sourceTree = "<group>"; };
+		BBB417311E802C3D0017AD6E /* navy pier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "navy pier.jpg"; path = "Attraction Image/navy pier.jpg"; sourceTree = "<group>"; };
+		BBB417321E802C3D0017AD6E /* shedd aquarium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shedd aquarium.jpg"; path = "Attraction Image/shedd aquarium.jpg"; sourceTree = "<group>"; };
+		BBB417331E802C3D0017AD6E /* water tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "water tower.jpg"; path = "Attraction Image/water tower.jpg"; sourceTree = "<group>"; };
+		BBB417341E802C3D0017AD6E /* willis tower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "willis tower.jpeg"; path = "Attraction Image/willis tower.jpeg"; sourceTree = "<group>"; };
+		BBB417351E802C3D0017AD6E /* wrigley field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wrigley field.jpg"; path = "Attraction Image/wrigley field.jpg"; sourceTree = "<group>"; };
+		BBB417401E802C4C0017AD6E /* artic ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "artic ic.jpg"; path = "Attraction Image Cells/artic ic.jpg"; sourceTree = "<group>"; };
+		BBB417411E802C4C0017AD6E /* chicago theatre ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chicago theatre ic.jpg"; path = "Attraction Image Cells/chicago theatre ic.jpg"; sourceTree = "<group>"; };
+		BBB417421E802C4C0017AD6E /* chinatown ic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chinatown ic.jpeg"; path = "Attraction Image Cells/chinatown ic.jpeg"; sourceTree = "<group>"; };
+		BBB417431E802C4C0017AD6E /* maggie daley park ic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "maggie daley park ic.JPG"; path = "Attraction Image Cells/maggie daley park ic.JPG"; sourceTree = "<group>"; };
+		BBB417441E802C4C0017AD6E /* millennium park ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "millennium park ic.jpg"; path = "Attraction Image Cells/millennium park ic.jpg"; sourceTree = "<group>"; };
+		BBB417451E802C4C0017AD6E /* navy pier ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "navy pier ic.jpg"; path = "Attraction Image Cells/navy pier ic.jpg"; sourceTree = "<group>"; };
+		BBB417461E802C4C0017AD6E /* shedd aquarium ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shedd aquarium ic.jpg"; path = "Attraction Image Cells/shedd aquarium ic.jpg"; sourceTree = "<group>"; };
+		BBB417471E802C4C0017AD6E /* water tower ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "water tower ic.jpg"; path = "Attraction Image Cells/water tower ic.jpg"; sourceTree = "<group>"; };
+		BBB417481E802C4C0017AD6E /* willis tower ic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "willis tower ic.jpeg"; path = "Attraction Image Cells/willis tower ic.jpeg"; sourceTree = "<group>"; };
+		BBB417491E802C4C0017AD6E /* wrigley field ic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wrigley field ic.jpg"; path = "Attraction Image Cells/wrigley field ic.jpg"; sourceTree = "<group>"; };
+		BBE39FD21E731D68004CC0A4 /* WebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		BBE39FD41E737451004CC0A4 /* AuthorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08CC7C1E1E705A6F00C131FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7091681E739E5900AAE074 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C321E705A6F00C131FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C3D1E705A6F00C131FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CC7C181E705A6F00C131FF = {
+			isa = PBXGroup;
+			children = (
+				BB7091671E739E5900AAE074 /* MapKit.framework */,
+				08CC7C231E705A6F00C131FF /* ABayronTopTenChicago */,
+				08CC7C381E705A6F00C131FF /* ABayronTopTenChicagoTests */,
+				08CC7C431E705A6F00C131FF /* ABayronTopTenChicagoUITests */,
+				08CC7C221E705A6F00C131FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08CC7C221E705A6F00C131FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08CC7C211E705A6F00C131FF /* ABayronTopTenChicago.app */,
+				08CC7C351E705A6F00C131FF /* ABayronTopTenChicagoTests.xctest */,
+				08CC7C401E705A6F00C131FF /* ABayronTopTenChicagoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08CC7C231E705A6F00C131FF /* ABayronTopTenChicago */ = {
+			isa = PBXGroup;
+			children = (
+				BB7091651E739D3300AAE074 /* Profile */,
+				BBE39FE71E739463004CC0A4 /* Attraction Image Cells */,
+				BBE39FDA1E7376D9004CC0A4 /* Attraction Images */,
+				BB7E51F91E724F9E0068003C /* Helper */,
+				08CC7C281E705A6F00C131FF /* Main.storyboard */,
+				BB7091691E739EA700AAE074 /* MapViewController.swift */,
+				BBE39FD41E737451004CC0A4 /* AuthorViewController.swift */,
+				BB7E51F11E724A750068003C /* TableViewController.swift */,
+				BBE39FD21E731D68004CC0A4 /* WebsiteViewController.swift */,
+				BB7E51F71E724D160068003C /* TableViewCell.swift */,
+				BB7E51F51E724CF90068003C /* DetailViewController.swift */,
+				BB7E51F31E724B3D0068003C /* Attraction.swift */,
+				08CC7C521E705B4000C131FF /* chicagoTopTen.plist */,
+			);
+			path = ABayronTopTenChicago;
+			sourceTree = "<group>";
+		};
+		08CC7C381E705A6F00C131FF /* ABayronTopTenChicagoTests */ = {
+			isa = PBXGroup;
+			children = (
+				08CC7C391E705A6F00C131FF /* ABayronTopTenChicagoTests.swift */,
+				08CC7C3B1E705A6F00C131FF /* Info.plist */,
+			);
+			path = ABayronTopTenChicagoTests;
+			sourceTree = "<group>";
+		};
+		08CC7C431E705A6F00C131FF /* ABayronTopTenChicagoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08CC7C441E705A6F00C131FF /* ABayronTopTenChicagoUITests.swift */,
+				08CC7C461E705A6F00C131FF /* Info.plist */,
+			);
+			path = ABayronTopTenChicagoUITests;
+			sourceTree = "<group>";
+		};
+		BB7E51F91E724F9E0068003C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				08CC7C241E705A6F00C131FF /* AppDelegate.swift */,
+				08CC7C301E705A6F00C131FF /* Info.plist */,
+				08CC7C2B1E705A6F00C131FF /* Assets.xcassets */,
+				08CC7C2D1E705A6F00C131FF /* LaunchScreen.storyboard */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		BBE39FDA1E7376D9004CC0A4 /* Attraction Images */ = {
+			isa = PBXGroup;
+			children = (
+				BBB4172C1E802C3D0017AD6E /* artic.jpg */,
+				BBB4172D1E802C3D0017AD6E /* chicago theatre.jpg */,
+				BBB4172E1E802C3D0017AD6E /* chinatown.jpg */,
+				BBB4172F1E802C3D0017AD6E /* maggie daley park.jpg */,
+				BBB417301E802C3D0017AD6E /* millennium park.jpg */,
+				BBB417311E802C3D0017AD6E /* navy pier.jpg */,
+				BBB417321E802C3D0017AD6E /* shedd aquarium.jpg */,
+				BBB417331E802C3D0017AD6E /* water tower.jpg */,
+				BBB417341E802C3D0017AD6E /* willis tower.jpeg */,
+				BBB417351E802C3D0017AD6E /* wrigley field.jpg */,
+			);
+			name = "Attraction Images";
+			sourceTree = "<group>";
+		};
+		BBE39FE71E739463004CC0A4 /* Attraction Image Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBB417401E802C4C0017AD6E /* artic ic.jpg */,
+				BBB417411E802C4C0017AD6E /* chicago theatre ic.jpg */,
+				BBB417421E802C4C0017AD6E /* chinatown ic.jpeg */,
+				BBB417431E802C4C0017AD6E /* maggie daley park ic.JPG */,
+				BBB417441E802C4C0017AD6E /* millennium park ic.jpg */,
+				BBB417451E802C4C0017AD6E /* navy pier ic.jpg */,
+				BBB417461E802C4C0017AD6E /* shedd aquarium ic.jpg */,
+				BBB417471E802C4C0017AD6E /* water tower ic.jpg */,
+				BBB417481E802C4C0017AD6E /* willis tower ic.jpeg */,
+				BBB417491E802C4C0017AD6E /* wrigley field ic.jpg */,
+			);
+			name = "Attraction Image Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08CC7C201E705A6F00C131FF /* ABayronTopTenChicago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CC7C491E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicago" */;
+			buildPhases = (
+				08CC7C1D1E705A6F00C131FF /* Sources */,
+				08CC7C1E1E705A6F00C131FF /* Frameworks */,
+				08CC7C1F1E705A6F00C131FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABayronTopTenChicago;
+			productName = ABayronTopTenChicago;
+			productReference = 08CC7C211E705A6F00C131FF /* ABayronTopTenChicago.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08CC7C341E705A6F00C131FF /* ABayronTopTenChicagoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CC7C4C1E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicagoTests" */;
+			buildPhases = (
+				08CC7C311E705A6F00C131FF /* Sources */,
+				08CC7C321E705A6F00C131FF /* Frameworks */,
+				08CC7C331E705A6F00C131FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CC7C371E705A6F00C131FF /* PBXTargetDependency */,
+			);
+			name = ABayronTopTenChicagoTests;
+			productName = ABayronTopTenChicagoTests;
+			productReference = 08CC7C351E705A6F00C131FF /* ABayronTopTenChicagoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08CC7C3F1E705A6F00C131FF /* ABayronTopTenChicagoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CC7C4F1E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicagoUITests" */;
+			buildPhases = (
+				08CC7C3C1E705A6F00C131FF /* Sources */,
+				08CC7C3D1E705A6F00C131FF /* Frameworks */,
+				08CC7C3E1E705A6F00C131FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CC7C421E705A6F00C131FF /* PBXTargetDependency */,
+			);
+			name = ABayronTopTenChicagoUITests;
+			productName = ABayronTopTenChicagoUITests;
+			productReference = 08CC7C401E705A6F00C131FF /* ABayronTopTenChicagoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08CC7C191E705A6F00C131FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "NIU Computer Science";
+				TargetAttributes = {
+					08CC7C201E705A6F00C131FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					08CC7C341E705A6F00C131FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08CC7C201E705A6F00C131FF;
+					};
+					08CC7C3F1E705A6F00C131FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08CC7C201E705A6F00C131FF;
+					};
+				};
+			};
+			buildConfigurationList = 08CC7C1C1E705A6F00C131FF /* Build configuration list for PBXProject "ABayronTopTenChicago" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08CC7C181E705A6F00C131FF;
+			productRefGroup = 08CC7C221E705A6F00C131FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08CC7C201E705A6F00C131FF /* ABayronTopTenChicago */,
+				08CC7C341E705A6F00C131FF /* ABayronTopTenChicagoTests */,
+				08CC7C3F1E705A6F00C131FF /* ABayronTopTenChicagoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08CC7C1F1E705A6F00C131FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB417511E802C4C0017AD6E /* water tower ic.jpg in Resources */,
+				08CC7C2F1E705A6F00C131FF /* LaunchScreen.storyboard in Resources */,
+				BBB417371E802C3D0017AD6E /* chicago theatre.jpg in Resources */,
+				BBB4173C1E802C3D0017AD6E /* shedd aquarium.jpg in Resources */,
+				BBB417391E802C3D0017AD6E /* maggie daley park.jpg in Resources */,
+				BBB4174D1E802C4C0017AD6E /* maggie daley park ic.JPG in Resources */,
+				BBB4174E1E802C4C0017AD6E /* millennium park ic.jpg in Resources */,
+				BBB4173E1E802C3D0017AD6E /* willis tower.jpeg in Resources */,
+				BBB417501E802C4C0017AD6E /* shedd aquarium ic.jpg in Resources */,
+				BBB417521E802C4C0017AD6E /* willis tower ic.jpeg in Resources */,
+				BBB4173F1E802C3D0017AD6E /* wrigley field.jpg in Resources */,
+				BBB4174F1E802C4C0017AD6E /* navy pier ic.jpg in Resources */,
+				BBB4173B1E802C3D0017AD6E /* navy pier.jpg in Resources */,
+				BBB4174B1E802C4C0017AD6E /* chicago theatre ic.jpg in Resources */,
+				BBB4173D1E802C3D0017AD6E /* water tower.jpg in Resources */,
+				BBB417361E802C3D0017AD6E /* artic.jpg in Resources */,
+				BBB4173A1E802C3D0017AD6E /* millennium park.jpg in Resources */,
+				BBB4174A1E802C4C0017AD6E /* artic ic.jpg in Resources */,
+				BBB417531E802C4C0017AD6E /* wrigley field ic.jpg in Resources */,
+				08CC7C531E705B4000C131FF /* chicagoTopTen.plist in Resources */,
+				BB7091661E739D3300AAE074 /* Profile in Resources */,
+				08CC7C2C1E705A6F00C131FF /* Assets.xcassets in Resources */,
+				08CC7C2A1E705A6F00C131FF /* Main.storyboard in Resources */,
+				BBB4174C1E802C4C0017AD6E /* chinatown ic.jpeg in Resources */,
+				BBB417381E802C3D0017AD6E /* chinatown.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C331E705A6F00C131FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C3E1E705A6F00C131FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08CC7C1D1E705A6F00C131FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7E51F81E724D160068003C /* TableViewCell.swift in Sources */,
+				08CC7C251E705A6F00C131FF /* AppDelegate.swift in Sources */,
+				BB7E51F41E724B3D0068003C /* Attraction.swift in Sources */,
+				BB7E51F21E724A750068003C /* TableViewController.swift in Sources */,
+				BBE39FD51E737451004CC0A4 /* AuthorViewController.swift in Sources */,
+				BBE39FD31E731D68004CC0A4 /* WebsiteViewController.swift in Sources */,
+				BB7E51F61E724CF90068003C /* DetailViewController.swift in Sources */,
+				BB70916A1E739EA700AAE074 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C311E705A6F00C131FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CC7C3A1E705A6F00C131FF /* ABayronTopTenChicagoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CC7C3C1E705A6F00C131FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CC7C451E705A6F00C131FF /* ABayronTopTenChicagoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CC7C371E705A6F00C131FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CC7C201E705A6F00C131FF /* ABayronTopTenChicago */;
+			targetProxy = 08CC7C361E705A6F00C131FF /* PBXContainerItemProxy */;
+		};
+		08CC7C421E705A6F00C131FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CC7C201E705A6F00C131FF /* ABayronTopTenChicago */;
+			targetProxy = 08CC7C411E705A6F00C131FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08CC7C281E705A6F00C131FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08CC7C291E705A6F00C131FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08CC7C2D1E705A6F00C131FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08CC7C2E1E705A6F00C131FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08CC7C471E705A6F00C131FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08CC7C481E705A6F00C131FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08CC7C4A1E705A6F00C131FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABayronTopTenChicago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08CC7C4B1E705A6F00C131FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABayronTopTenChicago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08CC7C4D1E705A6F00C131FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABayronTopTenChicagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABayronTopTenChicago.app/ABayronTopTenChicago";
+			};
+			name = Debug;
+		};
+		08CC7C4E1E705A6F00C131FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABayronTopTenChicagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABayronTopTenChicago.app/ABayronTopTenChicago";
+			};
+			name = Release;
+		};
+		08CC7C501E705A6F00C131FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABayronTopTenChicagoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicagoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABayronTopTenChicago;
+			};
+			name = Debug;
+		};
+		08CC7C511E705A6F00C131FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABayronTopTenChicagoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.ABayronTopTenChicagoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABayronTopTenChicago;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08CC7C1C1E705A6F00C131FF /* Build configuration list for PBXProject "ABayronTopTenChicago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CC7C471E705A6F00C131FF /* Debug */,
+				08CC7C481E705A6F00C131FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CC7C491E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CC7C4A1E705A6F00C131FF /* Debug */,
+				08CC7C4B1E705A6F00C131FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CC7C4C1E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicagoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CC7C4D1E705A6F00C131FF /* Debug */,
+				08CC7C4E1E705A6F00C131FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CC7C4F1E705A6F00C131FF /* Build configuration list for PBXNativeTarget "ABayronTopTenChicagoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CC7C501E705A6F00C131FF /* Debug */,
+				08CC7C511E705A6F00C131FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08CC7C191E705A6F00C131FF /* Project object */;
+}

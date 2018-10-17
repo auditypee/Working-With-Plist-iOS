@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number</key>
+		<integer>1</integer>
+		<key>cell_image</key>
+		<string>millennium park ic.jpg</string>
+		<key>attraction_image</key>
+		<string>millennium park.jpg</string>
+		<key>attraction_name</key>
+		<string>Millennium Park</string>
+		<key>location_address</key>
+		<string>201 E Randolph St, Chicago, IL 60602</string>
+		<key>website_address</key>
+		<string>https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</string>
+		<key>phone_number</key>
+		<string>(312) 742-1168</string>
+		<key>hours_of_operation</key>
+		<string>Monday      8AM–11PM
+Tuesday     8AM–11PM
+Wednesday   8AM–11PM
+Thursday    8AM–11PM
+Friday      8AM–11PM
+Saturday    8AM–11PM
+Sunday      8AM–11PM</string>
+		<key>email_address</key>
+		<string>dcase@cityofchicago.org</string>
+		<key>descript</key>
+		<string>Discover a state-of-the-art collection of architecture, landscape design and art that provide the backdrop for hundreds of free cultural programs including concerts, exhibitions, tours, and family activities. In Millennium Park, you’ll find a new kind of town square – a lively, spectacular gathering spot located in the heart of the city and a destination for Chicagoans and visitors alike.</string>
+		<key>latitude</key>
+		<real>41.8833754</real>
+		<key>longitude</key>
+		<real>-87.62184790000001</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>2</integer>
+		<key>cell_image</key>
+		<string>chinatown ic.jpeg</string>
+		<key>attraction_image</key>
+		<string>chinatown.jpg</string>
+		<key>attraction_name</key>
+		<string>ChinaTown</string>
+		<key>location_address</key>
+		<string>W Cermak Rd (at S Wentworth Ave), Chicago, IL 60616</string>
+		<key>website_address</key>
+		<string>http://chicagochinatown.org</string>
+		<key>phone_number</key>
+		<string>(312) 326 5320</string>
+		<key>hours_of_operation</key>
+		<string>Open Anytime</string>
+		<key>email_address</key>
+		<string>info@chicagochinatown.org</string>
+		<key>descript</key>
+		<string>Chicago&apos;s Chinatown is home to a number of banks, Chinese restaurants, gift shops, grocery stores, Chinese medicine stores, as well as a number of services that cater to people interested in Chinese culture, including those speaking varieties of Chinese, especially Cantonese. It is a community hub for Chinese people in the Chicago metropolitan area, a business center for Chinese in the Midwest, as well as a popular destination for tourists and locals alike.</string>
+		<key>latitude</key>
+		<real>41.8528429</real>
+		<key>longitude</key>
+		<real>-87.63713</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>3</integer>
+		<key>cell_image</key>
+		<string>navy pier ic.jpg</string>
+		<key>attraction_image</key>
+		<string>navy pier.jpg</string>
+		<key>attraction_name</key>
+		<string>Navy Pier</string>
+		<key>location_address</key>
+		<string>600 E Grand Ave, Chicago, IL 60611</string>
+		<key>website_address</key>
+		<string>https://navypier.com</string>
+		<key>phone_number</key>
+		<string>(312) 595-7437</string>
+		<key>hours_of_operation</key>
+		<string>Monday      10AM–8PM
+Tuesday     10AM–8PM
+Wednesday   10AM–8PM
+Thursday	10AM–8PM
+Friday      10AM–10PM
+Saturday	10AM–10PM
+Sunday      10AM–7PM
+        </string>
+		<key>email_address</key>
+		<string>navypierinfo@navypier.com</string>
+		<key>descript</key>
+		<string>Navy Pier is a not-for-profit originally opened as a shipping and recreational facility in 1916. Located on Lake Michigan, it has served many purposes throughout its rich history and currently encompasses more than fifty acres of parks, gardens, shops, restaurants, family attractions and exhibition facilities and is the top leisure destination in the Midwest, drawing nearly nine million visitors annually.</string>
+		<key>latitude</key>
+		<real>41.891731</real>
+		<key>longitude</key>
+		<real>-87.60225869999999</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>4</integer>
+		<key>cell_image</key>
+		<string>chicago theatre ic.jpg</string>
+		<key>attraction_image</key>
+		<string>chicago theatre.jpg</string>
+		<key>attraction_name</key>
+		<string>Chicago Theatre</string>
+		<key>location_address</key>
+		<string>175 N State St, Chicago, IL 60601</string>
+		<key>website_address</key>
+		<string>http://www.thechicagotheatre.com</string>
+		<key>phone_number</key>
+		<string>(312) 462-6300</string>
+		<key>hours_of_operation</key>
+		<string>Monday      12PM–6PM
+Tuesday     12PM–6PM
+Wednesday   12PM–6PM
+Thursday    12PM–6PM
+Friday      12PM–6PM
+Saturday    CLOSED
+Sunday      CLOSED</string>
+		<key>email_address</key>
+		<string>specialeventschicago@msg.com</string>
+		<key>descript</key>
+		<string>Legendary auditorium that hosts a variety of entertainment, including stage events, concerts, dance, comedy and special events.</string>
+		<key>latitude</key>
+		<real>41.8853914</real>
+		<key>longitude</key>
+		<real>-87.627505</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>5</integer>
+		<key>cell_image</key>
+		<string>maggie daley park ic.JPG</string>
+		<key>attraction_image</key>
+		<string>maggie daley park.jpg</string>
+		<key>attraction_name</key>
+		<string>Maggie Daley Park</string>
+		<key>location_address</key>
+		<string>337 E Randolph St, Chicago, IL 60601</string>
+		<key>website_address</key>
+		<string>http://maggiedaleypark.com</string>
+		<key>phone_number</key>
+		<string>(312) 552-3000</string>
+		<key>hours_of_operation</key>
+		<string>Monday      6AM–11PM
+Tuesday     6AM–11PM
+Wednesday   6AM–11PM
+Thursday    6AM–11PM
+Friday      6AM–11PM
+Saturday    6AM–11PM
+Sunday      6AM–11PM</string>
+		<key>email_address</key>
+		<string>info@maggiedaleypark.com</string>
+		<key>descript</key>
+		<string>The park features a one-quarter-mile-long ice skating ribbon, rock-climbing walls, and tennis courts. It includes three open lawn areas, a lawn panel, a café space, and picnic groves. The northeast section retains the Richard and Annette Bloch Cancer Survivors Garden, which was laid out in 1996. The park was designed by Michael Van Valkenburgh Associates, the landscape architects for the George W. Bush Presidential Center. The former Daley Bicentennial Plaza had included 12 tennis courts and Maggie Daley Park accommodates 6 replacement courts. The courts are in the far Northeastern corner known as Peanut Park.</string>
+		<key>latitude</key>
+		<real>41.8827891</real>
+		<key>longitude</key>
+		<real>-87.6189229</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>6</integer>
+		<key>cell_image</key>
+		<string>artic ic.jpg</string>
+		<key>attraction_image</key>
+		<string>artic.jpg</string>
+		<key>attraction_name</key>
+		<string>Art Institute of Chicago</string>
+		<key>location_address</key>
+		<string>111 S Michigan Ave, Chicago, IL 60603</string>
+		<key>website_address</key>
+		<string>http://www.artic.edu</string>
+		<key>phone_number</key>
+		<string>(312) 443-3600</string>
+		<key>hours_of_operation</key>
+		<string>Monday      10:30AM–5PM
+Tuesday     10:30AM–5PM
+Wednesday	10:30AM–5PM
+Thursday	10:30AM–8PM
+Friday      10:30AM–5PM
+Saturday	10:30AM–5PM
+Sunday      10:30AM–5PM</string>
+		<key>email_address</key>
+		<string>rbarchives@artic.edu</string>
+		<key>descript</key>
+		<string>The Art Institute of Chicago collects, preserves, and interprets works of art of the highest quality, representing the world’s diverse artistic traditions, for the inspiration and education of the public and in accordance with our profession’s highest ethical standards and practices.</string>
+		<key>latitude</key>
+		<real>41.8795473</real>
+		<key>longitude</key>
+		<real>-87.62372379999999</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>7</integer>
+		<key>cell_image</key>
+		<string>water tower ic.jpg</string>
+		<key>attraction_image</key>
+		<string>water tower.jpg</string>
+		<key>attraction_name</key>
+		<string>Water Tower</string>
+		<key>location_address</key>
+		<string>835 N Michigan Avenue, Chicago, IL 60611</string>
+		<key>website_address</key>
+		<string>https://www.shopwatertower.com/en.html</string>
+		<key>phone_number</key>
+		<string>(312) 742-0808</string>
+		<key>hours_of_operation</key>
+		<string>Monday      10AM–6:30PM
+Tuesday     10AM–6:30PM
+Wednesday	10AM–6:30PM
+Thursday	10AM–6:30PM
+Friday      10AM–6:30PM
+Saturday	10AM–6:30PM
+Sunday      10AM–6:30PM</string>
+		<key>email_address</key>
+		<string></string>
+		<key>descript</key>
+		<string>Water Tower Place is a Chicago landmark on the Magnificent Mile and renowned for its vast selection of over 100 stores. Beyond shopping, the eight story mall also houses a number of restaurants and entertainment options, including a live theatre.</string>
+		<key>latitude</key>
+		<real>41.8979675</real>
+		<key>longitude</key>
+		<real>-87.6235594</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>8</integer>
+		<key>cell_image</key>
+		<string>wrigley field ic.jpg</string>
+		<key>attraction_image</key>
+		<string>wrigley field.jpg</string>
+		<key>attraction_name</key>
+		<string>Wrigley Field</string>
+		<key>location_address</key>
+		<string>1060 W Addison St, Chicago, IL 60613</string>
+		<key>website_address</key>
+		<string>http://chicago.cubs.mlb.com/chc/ballpark/</string>
+		<key>phone_number</key>
+		<string>(773) 404-2827</string>
+		<key>hours_of_operation</key>
+		<string>See website for details</string>
+		<key>email_address</key>
+		<string></string>
+		<key>descript</key>
+		<string>Wrigley Field is a baseball park located on the North Side of Chicago, Illinois. It is the home of the Chicago Cubs, one of the city&apos;s two Major League Baseball franchises.</string>
+		<key>latitude</key>
+		<real>41.9474536</real>
+		<key>longitude</key>
+		<real>-87.6561341</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>9</integer>
+		<key>cell_image</key>
+		<string>willis tower ic.jpeg</string>
+		<key>attraction_image</key>
+		<string>willis tower.jpeg</string>
+		<key>attraction_name</key>
+		<string>Willis Tower SkyDeck</string>
+		<key>location_address</key>
+		<string>233 S Wacker Dr, Chicago, IL 60606</string>
+		<key>website_address</key>
+		<string>http://theskydeck.com</string>
+		<key>phone_number</key>
+		<string>(312) 875-9447</string>
+		<key>hours_of_operation</key>
+		<string>Monday      9AM–10PM
+Tuesday     9AM–10PM
+Wednesday   9AM–10PM
+Thursday    9AM–10PM
+Friday      9AM–10PM
+Saturday    9AM–10PM
+Sunday      9AM–10PM</string>
+		<key>email_address</key>
+		<string>Sales@theskydeck.com</string>
+		<key>descript</key>
+		<string>Offering spectacular views spanning up to four states, a one-stop Chicago experience full of interactive exhibits and…The Ledge, a glass balcony extending four feet outside the 103rd floor of Willis Tower!</string>
+		<key>latitude</key>
+		<real>41.8788862</real>
+		<key>longitude</key>
+		<real>-87.635881</real>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>10</integer>
+		<key>cell_image</key>
+		<string>shedd aquarium ic.jpg</string>
+		<key>attraction_image</key>
+		<string>shedd aquarium.jpg</string>
+		<key>attraction_name</key>
+		<string>Shedd Aquarium</string>
+		<key>location_address</key>
+		<string>1200 S Lake Shore Dr, Chicago, IL 60605</string>
+		<key>website_address</key>
+		<string>http://www.sheddaquarium.org</string>
+		<key>phone_number</key>
+		<string>(312) 939-2438</string>
+		<key>hours_of_operation</key>
+		<string>Monday      9AM–5PM
+Tuesday     9AM–5PM
+Wednesday	9AM–5PM
+Thursday	9AM–5PM
+Friday      9AM–5PM
+Saturday	9AM–6PM
+Sunday      9AM–6PM</string>
+		<key>email_address</key>
+		<string></string>
+		<key>descript</key>
+		<string>At Shedd Aquarium, animals connect you to the living world, inspiring you to make a difference. It is the largest indoor aquarium in the world, with more than 8000 aquatic animals.</string>
+		<key>latitude</key>
+		<real>41.8676217</real>
+		<key>longitude</key>
+		<real>-87.6136616</real>
+	</dict>
+</array>
+</plist>
